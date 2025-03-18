@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Multianual 1999-2099</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fixedElements">
+        <div id="infoPanel">
+            <div id="currentDateTime"></div>
+            <div id="weekProgress"></div>
+            <div id="timeElapsed"></div>
+        </div>
+
+        <header>
+            <h1>Cada día cuenta . . .</h1>
+            <div class="controls">
+                <button id="todayBtn">Ir a Hoy</button>
+                <button id="weekViewBtn">Vista de Semanas</button>
+            </div>
+        </header>
+    </div>
+    
+    <main>
+        <div id="calendarView" class="view-active">
+            <div id="calendarContainer"></div>
+        </div>
+        
+        <div id="weekView" class="view-hidden">
+            <h2>Una vida de 100 años no es suficiente (1999-2099)</h2>
+            <div id="weekContainer"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
